@@ -44,6 +44,14 @@ function appendData(data) {
 	});
 }
 
-function productPage() {
+function productPage(ele) {
+	var proObj = {
+		name: ele.productName,
+		price: ele.price,
+		image: ele.image,
+	};
+
+	localStorage.setItem("product", JSON.stringify(proObj));
+
 	window.location.href = "productViewpage.html";
 }

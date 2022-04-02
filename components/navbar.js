@@ -19,7 +19,7 @@ function navbar() {
         <div><a href="login.html">LOGIN</a></div>
         <div>WISHLIST</div>
         <div>
-            <a href="cart.html">SHOPPING BAG(<span>0</span>)</a>
+            <a href="cart.html">SHOPPING BAG(<span id="cartlength">2</span>)</a>
         </div>
     </div>
 </div>`;
