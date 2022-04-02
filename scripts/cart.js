@@ -45,3 +45,10 @@ function removeItem(index) {
 	localStorage.setItem("cartItems", JSON.stringify(cartList));
 	displayCartItems();
 }
+
+//checkout button
+var checkout = document.getElementById("button1");
+
+checkout.addEventListener("click", function () {
+	window.location.href = "address.html";
+});
