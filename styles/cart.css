@@ -1,0 +1,118 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#cart {
+	margin-top: 50px;
+}
+
+/* table css */
+table,
+td,
+th {
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	font-size: 12px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	font-weight: bold;
+	color: black;
+}
+
+th,
+td {
+	padding: 15px;
+}
+/* table css */
+
+#container {
+	display: flex;
+	box-sizing: border-box;
+	margin: 10px 50px 0px;
+}
+#tabledisplay {
+	flex-basis: 70%;
+	/* overflow: scroll; */
+	height: 400px;
+}
+
+/* Table head and scroll */
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+thead {
+	background-color: white;
+	position: sticky;
+	top: 0;
+	/* z-index: 10; */
+}
+
+/* Table head and scroll */
+
+/* coupon */
+#coupondiv {
+	flex-basis: 30%;
+	margin-left: 50px;
+}
+#coupon {
+	background-color: rgba(81, 74, 180, 0.116);
+	padding: 10px 50px 20px;
+}
+h3 {
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+}
+
+/* cart image */
+
+#cartImage {
+	width: 80px;
+}
+
+p {
+	font-size: 11px;
+	margin: 2px 0px;
+}
+
+input {
+	width: 220px;
+	margin: 10px 0px;
+	padding: 6px 20px;
+}
+
+#button1 {
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 12px;
+	padding: 10px 20px;
+	width: 265px;
+	cursor: pointer;
+}

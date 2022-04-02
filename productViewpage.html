@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clothes & Bags for MEN | SSENSE</title>
+
+		<!-- Navbar css -->
+		<link rel="stylesheet" href="./styles/navbar.css" />
+
+		<!-- Footer css -->
+		<link rel="stylesheet" href="./styles/footer.css" />
+
+		<!-- Menswear css -->
+		<link rel="stylesheet" href="./styles/productViewpage.css" />
+	</head>
+	<body>
+		<div id="nav"></div>
+
+        <!-- Individual div -->
+
+        <div id="pro">
+            <div id="description">
+                <p>COMME DES GARÇONS HOMME PLUS</p>
+                <p>Purple Cupro Shirt</p>
+
+                <div style="height: 12px;"></div>
+
+                <p>Cupro taffeta shirt. Stripes throughout.</p>
+
+                
+
+                <ul>
+                    <li>Spread collar</li>
+                    <li>Distressing at modified button-closure</li>
+                    <li>Patch pocket at chest</li>
+                    <li>Single-button barrel cuffs</li>
+                </ul>
+
+
+                <p>Supplier color: Sax</p>
+
+                <div style="height: 12px;"></div>
+
+                <p>100% cupro.</p>
+                <p>Made in Japan.</p>
+
+                <div style="height: 12px;"></div>
+
+                <p>221347M213079</p>
+            </div>
+            <div id="proimage">
+                <img src="https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221347M213089_1/comme-des-garcons-homme-plus-black-polyester-sweater.jpg" alt="">
+            </div>
+            <div id="addtobag">
+                <p id="price">$685 USD</p>
+
+                <div style="height: 12px;"></div>
+
+                <select id="size">
+                    <option value="">SELECT A SIZE</option>
+                    <option value="s">S - Only 1 remaining</option>
+                    <option value="m">M - Only 1 remaining</option>
+                    <option value="l">L - Only 1 remaining</option>
+                </select>
+
+                <div style="height: 12px;"></div>
+
+                <div id="flex">
+                <button>ADD TO BAG</button>
+                <p id="wishlist">ADD TO WISHLIST</p>
+                </div>
+
+                <div style="height: 12px;"></div>
+
+                <i class="fa fa-fonticons" aria-hidden="true"></i>
+                <p>Item Runs <span class="under">True to size</span></p>
+
+                <div style="height: 1px;"></div>
+
+                <p>Model is 6ft 2" and wears size M. <span class="under">SIZE GUIDE</span></p>
+
+                <div style="height: 5px;"></div>
+
+                <p id="grey">India : Free shipping on orders over $500 USD.</p>
+            </div>
+        </div>
+
+        <!-- Individual div ends-->
+    
+        <!-- Footer-->
+        <div style="height: 80px;"></div>
+
+        <div id="foot">
+</body>
+</html>
+
+
+<script type="module">
+    import navbar from "./components/navbar.js";
+
+    let nav = document.getElementById("nav");
+
+    nav.innerHTML = navbar();
+</script>
+
+<script type="module">
+    import footer from "./components/footer.js";
+
+    let foot = document.getElementById("foot");
+
+    foot.innerHTML = footer();
+</script>
+
+<script src="./scripts/productViewPage.js"></script>

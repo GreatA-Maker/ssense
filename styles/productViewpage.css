@@ -1,0 +1,71 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-size: 11px;
+	margin: 2px 0px;
+}
+
+li {
+	font-size: 11px;
+	margin-left: -25px;
+}
+
+#pro {
+	display: flex;
+	padding: 20px 50px;
+	height: 400px;
+	width: 100%;
+}
+
+#description {
+	flex-basis: 35%;
+	margin: auto 0px;
+}
+
+#proimage {
+	flex-basis: 33%;
+}
+
+#addtobag {
+	flex-basis: 30%;
+	margin: auto 0px;
+	padding-left: 30px;
+}
+
+#flex {
+	display: flex;
+}
+
+#wishlist {
+	margin-left: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#grey {
+	color: gray;
+}
+
+.under {
+	text-decoration: underline;
+}
+
+select {
+	width: 300px;
+	padding: 6px 20px;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 12px;
+	padding: 10px 20px;
+	width: 150px;
+	cursor: pointer;
+}

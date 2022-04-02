@@ -1,0 +1,50 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#center {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+input {
+	width: 400px;
+	margin: 5px 0px;
+	padding: 6px 20px;
+}
+
+#button1 {
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 12px;
+	padding: 10px 20px;
+	width: 400px;
+	cursor: pointer;
+	margin: 20px 0px -50px;
+}
+
+select {
+	width: 445px;
+	padding: 6px 20px;
+}
+
+th {
+	font-size: 12px;
+}
+
+#table {
+	width: 700px;
+	margin: auto;
+}
+
+#ww {
+	width: 400px;
+	margin: auto;
+}

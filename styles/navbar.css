@@ -1,0 +1,58 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+#navbar {
+	margin: 20px 0px;
+	display: flex;
+}
+#left {
+	display: flex;
+	flex-basis: 47%;
+	font-size: 11px;
+	padding-top: 6px;
+}
+#right {
+	flex-basis: 47%;
+}
+
+#left > div {
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#left:nth-child(1) {
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+#left > div:hover {
+	text-decoration: underline;
+}
+
+#right {
+	display: flex;
+	flex-basis: 47%;
+	font-size: 11px;
+	padding-top: 6px;
+	justify-content: end;
+}
+
+#right > div {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#right:nth-last-child(1) {
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+#right > div:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

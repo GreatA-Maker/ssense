@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Designer Clothes,Shoes & Bags for MEN | SSENSE</title>
+
+		<!-- Navbar css -->
+		<link rel="stylesheet" href="./styles/navbar.css" />
+
+		<!-- Footer css -->
+		<link rel="stylesheet" href="./styles/footer.css" />
+
+		<!-- Menswear css -->
+		<link rel="stylesheet" href="./styles/menswear.css" />
+	</head>
+	<body>
+		<div id="nav"></div>
+
+		<!-- Men products -->
+
+		<div id="men">
+			<div id="all_category">
+				<p class="head">ALL CATEGORIES</p>
+				<p class="sub">ACCESSORIES</p>
+				<p class="sub">BAGS</p>
+				<p class="sub">CLOTHING</p>
+				<p class="sub">SHOES</p>
+
+				<div style="height: 20px;"></div>
+				<p class="head">ALL DESIGNERS</p>
+				<p class="sub">1017 ALYX 9SM</p>
+				<p class="sub">11 by Boris</p>
+				<p class="sub">Philips</p>
+				<p class="sub">3MAN</p>
+				<p class="sub">ADER error</p>
+			</div>
+			<div id="products"></div>
+			<div id="sort">
+				<p class="head">SORT</p>
+				<p class="sub">Price: Low to high</p>
+				<p class="sub">Price: high to low</p>
+
+				<div style="height: 20px;"></div>
+				<p class="head">COLOR</p>
+				<p class="sub">Black</p>
+				<p class="sub">Green</p>
+				<p class="sub">Gray</p>
+				<p class="sub">Brown</p>
+				<p class="sub">Yellow</p>
+			</div>
+		</div>
+
+		<!-- Men products ends-->
+
+
+		<!-- Footer-->
+		<div style="height: 80px;"></div>
+
+		<div id="foot">
+	</body>
+</html>
+
+
+<script type="module">
+	import navbar from "./components/navbar.js";
+
+	let nav = document.getElementById("nav");
+
+	nav.innerHTML = navbar();
+</script>
+
+<script type="module">
+	import footer from "./components/footer.js";
+
+	let foot = document.getElementById("foot");
+
+	foot.innerHTML = footer();
+</script>
+
+<script src="./scripts/menswear.js"></script>

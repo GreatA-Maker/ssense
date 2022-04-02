@@ -1,0 +1,42 @@
+#footer {
+	padding-bottom: 10px;
+}
+
+#layer1 {
+	display: flex;
+	font-size: 11px;
+	justify-content: center;
+}
+
+#layer2 {
+	margin: 20px 0px 30px;
+	display: flex;
+	font-size: 11px;
+	justify-content: center;
+}
+
+#layer1 > div {
+	margin-left: 30px;
+}
+
+#layer2 > div {
+	margin-left: 30px;
+	color: grey;
+}
+
+#layer1 > div:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#layer1:nth-child(1) {
+	margin-left: 0px;
+}
+
+#layer2:nth-child(1) {
+	margin-left: 0px;
+}
+
+#social > i {
+	margin-right: 5px;
+}
